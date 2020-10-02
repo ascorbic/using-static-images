@@ -6,9 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [
-    `gatsby-plugin-static-image`,
-    `gatsby-plugin-sharp`,
-    { resolve: `gatsby-source-filesystem`, options: { path: `./src/data/` } },
-  ],
+  plugins: [`gatsby-plugin-static-image`, `gatsby-plugin-sharp`],
 }
