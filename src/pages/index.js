@@ -1,6 +1,5 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-static-image"
-
+import { StaticImage } from "gatsby-plugin-image"
 export default function Home() {
   return (
     <div style={{ fontFamily: "sans-serif" }}>
